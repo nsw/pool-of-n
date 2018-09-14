@@ -79,7 +79,7 @@ theme: anatole
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/nsw/pool-of-n
+  repo: https://github.com/nsw/pool-of-n/tree/gh-pages
 
 archive_generator:
   per_page: 0  
