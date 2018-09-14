@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://nsw.github.io/pool-of-n/
+root: /pool-of-n/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,7 +79,8 @@ theme: anatole
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/nsw/pool-of-n/tree/gh-pages
+  repo: https://github.com/nsw/pool-of-n
+  branch: gh-pages
 
 archive_generator:
   per_page: 0  
